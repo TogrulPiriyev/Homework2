@@ -1,0 +1,14 @@
+C:\Users\Togrul\Desktop\homework_2\P201\P201\bin\Debug\netcoreapp3.1\P201.exe
+C:\Users\Togrul\Desktop\homework_2\P201\P201\bin\Debug\netcoreapp3.1\P201.deps.json
+C:\Users\Togrul\Desktop\homework_2\P201\P201\bin\Debug\netcoreapp3.1\P201.runtimeconfig.json
+C:\Users\Togrul\Desktop\homework_2\P201\P201\bin\Debug\netcoreapp3.1\P201.runtimeconfig.dev.json
+C:\Users\Togrul\Desktop\homework_2\P201\P201\bin\Debug\netcoreapp3.1\P201.dll
+C:\Users\Togrul\Desktop\homework_2\P201\P201\bin\Debug\netcoreapp3.1\P201.pdb
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.csproj.AssemblyReference.cache
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.AssemblyInfoInputs.cache
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.AssemblyInfo.cs
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.csproj.CoreCompileInputs.cache
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.dll
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.pdb
+C:\Users\Togrul\Desktop\homework_2\P201\P201\obj\Debug\netcoreapp3.1\P201.genruntimeconfig.cache
