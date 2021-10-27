@@ -7,22 +7,40 @@ namespace P201
         static void Main2(string[] args)
         {
             string word = Console.ReadLine();
-            char[] numbers = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
-            for (int i = 0; i < word.Length; i++) {
-                for (int j = 0; j < numbers.Length; j++) 
-                {   if (word[i] == numbers[j])
-                    {
-                        Console.WriteLine("var");
-                        break;
-                    }
+            string letter = Console.ReadLine();
 
+            bool negativeOneOrPositiveTwo = FindInWordLetter(word, letter);
+
+            ShowNegativeOneOrPositiveTwo(negativeOneOrPositiveTwo);
+
+
+
+
+
+        }
+        static bool FindInWordLetter(string word,string letter)
+        {
+            for (int i = 0; i < word.Length; i++) 
+            {
+                for (int j = 0; j < letter.Length; j++) {
+                    if (word[i] == letter[j])
+                        return true;
                 }
 
             }
+            return false;
+        }
+        static void ShowNegativeOneOrPositiveTwo(bool trueFalse)
+        {
+            if (trueFalse)
+            {
+                Console.WriteLine("2");
 
-
-
-
+            }
+            else
+            {
+                Console.WriteLine("-1");
+            }
         }
     }
 }
