@@ -104,12 +104,9 @@ namespace Homework_3
             #endregion
             #region Task5
             int[] numbers = { 1, -4, 9, -8 };
-            PositivNumbers(numbers);
-            foreach (var num in numbers)
-            {
-                Console.WriteLine(num);
-            } 
-            
+            numbers = PositivNumbers(numbers);
+            ShowArray(numbers);
+                        
             static int[] PositivNumbers(int[] numbers)
             {
                 for (int i = 0; i < numbers.Length; i++)
@@ -121,6 +118,14 @@ namespace Homework_3
                     
                 }
                 return numbers;
+            }
+            static void ShowArray(int[] numbers)
+            {
+                foreach (var num in numbers)
+                {
+                    Console.WriteLine(num);
+                }
+
             }
             #endregion
         }
