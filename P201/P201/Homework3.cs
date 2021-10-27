@@ -2,7 +2,7 @@
 
 namespace Homework_3
 {
-    class Program
+    class Homework3
     {
         static void Main(string[] args)
         {
@@ -105,7 +105,12 @@ namespace Homework_3
             #region Task5
             int[] numbers = { 1, -4, 9, -8 };
             PositivNumbers(numbers);
-            static void PositivNumbers(int[] numbers)
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
+            } 
+            
+            static int[] PositivNumbers(int[] numbers)
             {
                 for (int i = 0; i < numbers.Length; i++)
                 {
@@ -113,9 +118,9 @@ namespace Homework_3
                     {
                         numbers[i] = numbers[i] * -1;
                     }
-                    Console.WriteLine(numbers[i]);
+                    
                 }
-                
+                return numbers;
             }
             #endregion
         }
