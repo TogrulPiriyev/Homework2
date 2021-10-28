@@ -18,7 +18,7 @@ namespace Homework4
             //Third task
             string word_char = Console.ReadLine();
             char new_char = 'a';
-            int[] arrnum = { 0,1};
+            int[] arrnum=new int[10];
             arrnum = IndexSearch(word_char, new_char, arrnum);
 
             foreach (var num in arrnum)
@@ -57,12 +57,13 @@ namespace Homework4
             
             for (int i = 0; i < word.Length; i++)
             {
-                int id = 0;
+                
                 
                 if (word[i]==newchar)
                 {
-                    arrnum[id] = i;
-                    id=id+1;
+                    
+                    arrnum[i] = i;
+                    
 
                 }
             }
