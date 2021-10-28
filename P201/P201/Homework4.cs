@@ -2,7 +2,7 @@
 
 namespace Homework4
 {
-    class Program
+    class Homework4
     {
         static void Main(string[] args)
         {   
@@ -18,9 +18,13 @@ namespace Homework4
             //Third task
             string word_char = Console.ReadLine();
             char new_char = 'a';
-            int[] arrnum = { };
+            int[] arrnum = { 0,1};
+            arrnum = IndexSearch(word_char, new_char, arrnum);
 
-            Console.WriteLine(IndexSearch(word_char, new_char,arrnum));
+            foreach (var num in arrnum)
+            {
+                Console.WriteLine(num);
+            }
 
         }
         static string ConverselyWord(string word)
@@ -57,9 +61,9 @@ namespace Homework4
                 
                 if (word[i]==newchar)
                 {
-                    
-                    arrnum[0+id] = i;
-                    id++;
+                    arrnum[id] = i;
+                    id=id+1;
+
                 }
             }
             return arrnum;
