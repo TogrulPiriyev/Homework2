@@ -12,7 +12,7 @@ namespace Homework4
             Console.WriteLine(new_word);
             //Second Task
             string text = Console.ReadLine();
-            int Counter = 0;
+            int Counter = 1;
             Counter = CounterWordInText(text, Counter);
             Console.WriteLine(Counter);
             //Third task
@@ -42,15 +42,8 @@ namespace Homework4
             {
                 if (word[i-1]!=' ' && word[i]==' ' &&  word[i+1]!= ' ')
                 {
-                    if (i == 0 || i == word.Length - 1 )
-                    {
-                        continue;
-                    }
-                    else 
-                    {
-                        counter++;
+                   counter++;
 
-                    }
                 }
             }
             return counter;
